@@ -1,0 +1,101 @@
+.header {
+    height: 50px;
+    background: linear-gradient(rgb(47, 146, 47), rgb(9, 235, 9), rgb(23, 140, 23));
+}
+
+.header-title {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: rgb(55, 108, 65);
+    background: linear-gradient(rgb(47, 146, 47), rgb(9, 235, 9), rgb(23, 140, 23));
+    position: absolute;
+    z-index: 9;
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.pt5px {
+    position: relative;
+    top: 5px;
+}
+
+.addIcon {
+    width: 30px;
+    height: 30px;
+}
+
+.addIcon img {
+    width: 100%;
+    height: 100%;
+}
+
+.header-add-form {
+    transition: all 200ms ease-in-out;
+	top: -19px;
+    position: relative;
+    padding: 0 10px;
+    color: grey;
+    background: linear-gradient(rgb(23, 140, 23), rgb(9, 235, 9), rgb(47, 146, 47));
+    z-index: 2;
+}
+
+.active {
+    top: 50px;
+}
+
+.add-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-event, .btn-add-event {
+    border: 1px solid grey;
+    border-radius: 12px;
+    padding: 3px 10px;
+    color: grey;
+}
+
+.input-event {
+    width: 100%;
+    border-radius: 14px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(172, 170, 170));
+
+}
+
+.btn-container {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.btn-add-event {
+    width: 80px;
+    margin-bottom: 10px;
+    background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255), rgb(149, 146, 146));
+
+}
+
+.btn-add-event:hover {
+    background:rgb(213, 210, 210);
+
+}
+
+.block {
+    display: block;
+}
+
+.none {
+    display: none;
+}
+
